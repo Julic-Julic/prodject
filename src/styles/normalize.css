@@ -1,4 +1,4 @@
-/* Reset margins and padding for all elements */
+
 *,
 *::before,
 *::after {
@@ -7,7 +7,6 @@
   box-sizing: border-box;
 }
 
-/* HTML and body settings */
 html {
   scroll-behavior: smooth;
 }
@@ -18,19 +17,16 @@ body {
   text-rendering: optimizeSpeed;
 }
 
-/* Remove list styles */
 ul,
 ol {
   list-style: none;
 }
 
-/* Remove default link styles */
 a {
   text-decoration: none;
   color: inherit;
 }
 
-/* Remove button styles */
 button {
   border: none;
   background: none;
@@ -38,7 +34,6 @@ button {
   font-family: inherit;
 }
 
-/* Remove input styles */
 input,
 textarea,
 select {
@@ -47,13 +42,11 @@ select {
   font-family: inherit;
 }
 
-/* Remove table styles */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* Media defaults */
 img,
 picture,
 video,
@@ -64,12 +57,10 @@ svg {
   height: auto;
 }
 
-/* Remove default form styles */
 fieldset {
   border: none;
 }
 
-/* Remove quote styles */
 blockquote,
 q {
   quotes: none;
