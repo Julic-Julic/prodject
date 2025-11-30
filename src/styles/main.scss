@@ -156,7 +156,6 @@
       margin-top: 24px;
       width: 100%;
       padding: 16px;
-      /* gradient */
 
       background: linear-gradient(360deg, #f8f8f8 0%, #ffffff 98.61%);
 
@@ -261,7 +260,6 @@
           }
         }
 
-        /* Изменить цвет всех точек */
       }
 
       &-wrapper-slide img {
@@ -300,8 +298,8 @@
 }
 
 .swiper-pagination-bullet {
-  width: 12px; /* Новая ширина */
-  height: 12px; /* Новая высота */
+  width: 12px; 
+  height: 12px; 
   background-color: rgba(221, 221, 221, 1);
 }
 
@@ -318,7 +316,6 @@
   z-index: 10;
 }
 
-/* Для первого слайдера */
 .swiper-pagination:not([data-pagination-type]) {
   bottom: -90px !important;
   left: 50% !important;
@@ -326,17 +323,16 @@
   width: auto !important;
 }
 
-/* Для второго слайдера */
 .swiper-pagination[data-pagination-type='second'] {
-  bottom: -190px !important; /* Другое положение */
-  left: 35% !important; /* Сдвиг влево */
+  bottom: -190px !important; 
+  left: 35% !important; 
   transform: none !important;
   width: auto !important;
 }
 
 .swiper-pagination[data-pagination-type='three'] {
-  bottom: -220px !important; /* Другое положение */
-  left: 35% !important; /* Сдвиг влево */
+  bottom: -220px !important; 
+  left: 35% !important; 
   transform: none !important;
   width: auto !important;
 }

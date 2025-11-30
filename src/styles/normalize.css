@@ -83,18 +83,15 @@ q::after {
   content: none;
 }
 
-/* Remove focus outlines for mouse users */
 :focus:not(:focus-visible) {
   outline: none;
 }
 
-/* Add focus styles for keyboard navigation */
 :focus-visible {
   outline: 2px solid blue;
   outline-offset: 2px;
 }
 
-/* Reduce motion for users who prefer it */
 @media (prefers-reduced-motion: reduce) {
   *,
   *::before,
